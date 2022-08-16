@@ -1,0 +1,118 @@
+<local:MyCard Title="RNM 退钱！">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" FontSize="25"
+                  Text="MADE BY SHIJIANKE666" />
+        <TextBlock Margin="0,0,0,4" FontSize="25"	
+                   Text="这是贱客做的魔改PCL布局！当然是基于PCL自带的教程文件改的啦~我又不会~" />
+        <TextBlock Margin="0,0,0,4" FontSize="25"
+                   Text="但是呢，我会尽我所能，去做一个（摆烂）了的启动器布局！" />
+        <local:MyHint IsWarn="False" 
+                   Text="请注意，这还只是个不完全版，而且我也只是在PCL自带的界面布局教程里面捣鼓捣鼓，所以说不要感谢我！感谢龙猫去！awa" />
+       <local:MyButton Margin="0,15,0,10" Width="250" Height="35" ColorType="Highlight"
+                   Text="去爱发电支持龙猫" EventType="打开网页" EventData="https://afdian.net/@LTCat"/>            
+    </StackPanel>
+</local:MyCard>
+  
+<local:MyCard Title="贱客快乐页！" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="贱客の快乐百宝箱！你在这里可以快捷访问网站，或者是游戏！" />
+        <!-- 这是第一行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开 B 站" EventType="打开网页" EventData="https://www.bilibili.com/" ToolTip="哔哩哔哩 (゜-゜)つロ 干杯~-bilibili" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开MC百科" EventType="打开网页" EventData="https://www.mcmod.cn/" ToolTip="贱客快乐网！你可以在里面下载mod" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开MCBBS" EventType="打开网页" EventData="https://www.mcbbs.net/" ToolTip="MCBBS！" />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="打开Wiki" EventType="打开网页" EventData="https://minecraft-zh.gamepedia.com/Minecraft_Wiki" ToolTip="Minecraft Wiki百科！" />
+        </StackPanel>
+        <!-- 这是第二行 -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" 
+                   Text="打开QQ" EventType="打开文件" EventData="C:\Program Files (x86)\Tencent\QQ\Bin\QQscLauncher"  />
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="玩PaFoo！" EventType="启动游戏" EventData="1.16.5|mc.pafoo.top"  ToolTip="使用 Minecraft 1.16.5 进入 PaFoo   "/>
+           <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="玩Hypixel！" EventType="启动游戏" EventData="1.8.9|mc.hypixel.net" ToolTip="以1.8.9的版本加入Hypixel" />
+           <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
+                    Text="下个版本的预告片" EventType="打开网页" EventData="https://www.bilibili.com/video/BV1uT4y1P7CX/?spm_id_from=333.788.recommend_more_video.0" ToolTip="MOJANG下个版本的预告片" />
+        </StackPanel>
+        <!-- 这是第三行 -->
+         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="快捷启动1.8.9" EventType="启动游戏" EventData="1.8.9"/>
+             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="快捷启动1.12.2" EventType="启动游戏" EventData="1.12.2" />
+             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="快捷启动1.16.5" EventType="启动游戏" EventData="1.16.5" />
+             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                    Text="快捷启动1.18.1" EventType="启动游戏" EventData="1.18.1" />
+         </StackPanel>
+             <local:MyHint IsWarn="True" 
+                   Text="请注意，使用快捷启动时请将版本名称改为版本号！(例如1.12.2的版本如果想快就启动就请将版本名称改为1.12.2）不然无法启动！" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更好的联机！" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                  Text="如果你和你的朋友想要联机，请把这一篇文章甩到你朋友和你自己的脸上！" />
+        <TextBlock Margin="0,0,0,4"
+                  Text="http://note.youdao.com/s/SdJ9yGBb" />
+        <local:MyButton Margin="0,0,0,10" Width="250" Height="35" ColorType="Highlight"  HorizontalAlignment="Left"
+                  Text="去看如何联机" EventType="打开网页" EventData="http://note.youdao.com/s/SdJ9yGBb"/>   
+        <local:MyHint IsWarn="False" 
+                  Text="感谢bling、一闪提供的联机方式！" />
+    </StackPanel>
+</local:MyCard>
+    
+
+
+<local:MyCard Title="贱客の偷懒" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                  Text="因为懒得去设置刷新主页了，所以说就做了个便携窗口！awa" />
+        <local:MyButton Margin="0,0,0,10" Width="250" Height="35" ColorType="Highlight"  HorizontalAlignment="Center"
+                  Text="刷新主页" EventType="刷新主页" />
+    </StackPanel>
+</local:MyCard>
+<!-- 
+
+全部通用的属性：
+ - Width、Height：设置宽度与高度
+ - ToolTip：设置鼠标指向时的提示文本
+ - Foreground：调整前景颜色（十六进制字符串，例如 #FF010203 代表 ARGB 中的 255,1,2,3。前两位代表不透明度，FF 为全不透明，00 为全透明）
+ - Background：调整背景颜色（使用类似 Background="{DynamicResource ColorBrush5}" 的格式以调用 PCL2 当前的主题颜色，修改末尾的数字编号以改变颜色浓度）
+ - Margin：调整外边距（格式为 左,上,右,下。例如 Margin="0,0,0,2" 即为 2 单位的下边距）
+ - HorizontalAlignment：设置对齐方式（Left、Center、Right）
+
+TextBlock（纯文本）：
+ - Text：设置显示的文本（如果要使用引号等特殊字符，自行百度 XAML 转义）
+ - TextWrapping：开启自动换行
+ - FontSize：设置字号
+ 
+Image（图片）：
+ - Source：要显示的图片的网址
+
+local:MyHint（提示条）：
+ - Text：设置显示的文本（&#xA; 代表换行）
+ - IsWarn：设置为 True 代表警告样式，False 代表提示样式
+ 
+local:MyButton（按钮）：
+ - Text：设置显示的文本
+ - Padding：设置内边距，格式与 Margin 一致
+ - ColorType：设置颜色主题（Highlight 为当前启动器的主题颜色，Red 为红色，默认为黑色）
+ - EventType、EventData：触发特定事件
+ 
+local:MyTextButton（文本按钮）：
+ - Text：设置显示的文本
+ - EventType、EventData：触发特定事件
+ 
+local:MyCard（卡片）：
+ - Title：设置显示的标题文本
+ - CanSwap：这张卡片是否可以折叠，True 为是，False 为否
+ - IsSwaped：这张卡片是否默认折叠，要求 CanSwap 必须为 True
+
+-->
