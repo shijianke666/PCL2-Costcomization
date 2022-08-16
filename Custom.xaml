@@ -1,4 +1,4 @@
-<local:MyCard Title="RNM 退钱！">
+﻿<local:MyCard Title="RNM 退钱！">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" FontSize="25"
                   Text="MADE BY SHIJIANKE666" />
